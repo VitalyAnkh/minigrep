@@ -28,7 +28,6 @@ impl Config {
     }
 }
 
-
 #[cfg(test)]
 mod test {
     use super::*;
@@ -45,6 +44,7 @@ Pick three.";
     )
     }
 }
+
 
 pub fn search<'a>(query:&str, contents:&'a str)->Vec<&'a str>{
     let mut result=Vec::new();
